@@ -43,10 +43,15 @@
       margin-bottom: 30px;
       text-align: center;
     }
-    .team {
+    .team-wrapper {
       display: flex;
-      flex-wrap: wrap;
       justify-content: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
       gap: 30px;
     }
     .member {
@@ -102,36 +107,40 @@
   <div class="section">
     <h2>Team VADABAV</h2>
 
-    <div class="team">
-      <div class="member">
-        <h3>Aslam S</h3>
-        <p>Roll No: 128009020</p>
-        <p><strong>Webpage Developer</strong></p>
+    <div class="team-wrapper">
+      <div class="column">
+        <div class="member">
+          <h3>Aslam S</h3>
+          <p>Roll No: 128009020</p>
+          <p><strong>Webpage Developer</strong></p>
+        </div>
+        <div class="member">
+          <h3>Sriram Shivakumar</h3>
+          <p>Roll No: 128004261</p>
+          <p><em>Topper 1 🧠</em></p>
+        </div>
+        <div class="member">
+          <h3>Vegnesh N</h3>
+          <p>Roll No: 128181050</p>
+          <p><em>(Vignesh... but with an E 😎)</em></p>
+        </div>
       </div>
-      <div class="member">
-        <h3>Sriram Shivakumar</h3>
-        <p>Roll No: 128004261</p>
-        <p><em>Topper 1 🧠</em></p>
-      </div>
-      <div class="member">
-        <h3>Vegnesh N</h3>
-        <p>Roll No: 128181050</p>
-        <p><em>(Vignesh... but with an E 😎)</em></p>
-      </div>
-      <div class="member">
-        <h3>Dinesh S</h3>
-        <p>Roll No: 128161011</p>
-        <p><em>💤💤</em></p>
-      </div>
-      <div class="member">
-        <h3>Aravindhan R K</h3>
-        <p>Roll No: 128009017</p>
-        <p><em>Topper 2 📚</em></p>
-      </div>
-      <div class="member">
-        <h3>Balaji S</h3>
-        <p>Roll No: 128010014</p>
-        <p><em>Allahu Akbar 💥</em></p>
+      <div class="column">
+        <div class="member">
+          <h3>Dinesh S</h3>
+          <p>Roll No: 128161011</p>
+          <p><em>💤💤</em></p>
+        </div>
+        <div class="member">
+          <h3>Aravindhan R K</h3>
+          <p>Roll No: 128009017</p>
+          <p><em>Topper 2 📚</em></p>
+        </div>
+        <div class="member">
+          <h3>Balaji S</h3>
+          <p>Roll No: 128010014</p>
+          <p><em>Allahu Akbar 💥</em></p>
+        </div>
       </div>
     </div>
 
